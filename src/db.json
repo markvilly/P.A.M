@@ -1,0 +1,84 @@
+{
+  "appointments": [
+    {
+      "id": 1,
+      "patientName": "John Doe",
+      "date": "2025-01-05",
+      "time": "10:30 AM",
+      "reason": "General Checkup",
+      "status": "Upcoming"
+    },
+    {
+      "id": 2,
+      "patientName": "Jane Smith",
+      "date": "2025-01-03",
+      "time": "02:00 PM",
+      "reason": "Follow-up",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "patientName": "Alex Johnson",
+      "date": "2025-01-06",
+      "time": "09:00 AM",
+      "reason": "Routine Blood Test",
+      "status": "Upcoming"
+    },
+    {
+      "id": 4,
+      "patientName": "Emily Davis",
+      "date": "2025-01-07",
+      "time": "01:30 PM",
+      "reason": "Consultation - Back Pain",
+      "status": "Upcoming"
+    },
+    {
+      "id": 5,
+      "patientName": "Michael Brown",
+      "date": "2025-01-04",
+      "time": "11:15 AM",
+      "reason": "Diabetes Checkup",
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "patientName": "Sarah Wilson",
+      "date": "2025-01-08",
+      "time": "04:00 PM",
+      "reason": "Post-Surgery Follow-Up",
+      "status": "Upcoming"
+    },
+    {
+      "id": 7,
+      "patientName": "David Martinez",
+      "date": "2025-01-02",
+      "time": "10:00 AM",
+      "reason": "Routine Physical",
+      "status": "Completed"
+    },
+    {
+      "id": 8,
+      "patientName": "Sophia Garcia",
+      "date": "2025-01-09",
+      "time": "03:00 PM",
+      "reason": "Skin Rash Consultation",
+      "status": "Upcoming"
+    },
+    {
+      "id": 9,
+      "patientName": "James Taylor",
+      "date": "2025-01-03",
+      "time": "08:30 AM",
+      "reason": "Chest Pain Checkup",
+      "status": "Cancelled"
+    },
+    {
+      "id": 10,
+      "patientName": "Olivia Hernandez",
+      "date": "2025-01-10",
+      "time": "12:00 PM",
+      "reason": "Allergy Testing",
+      "status": "Upcoming"
+    }
+  ]
+}
