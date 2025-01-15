@@ -1,30 +1,14 @@
-import AppointmentList from "./AppointmentList"
-import { useAppointmentListQuery } from "./service/api"
+
+// import { useAppointmentListQuery } from "./service/api"
 
 
 function App() {
   
+  return (
+    <div>
 
-  
-  const {data, isLoading, isSuccess} = useAppointmentListQuery('')
-  console.log(data)
-  if(isLoading){
-    return (
-      <div>
-        <h1>Loading...</h1>
-      </div>
-    )
-  }
-  if(isSuccess){
-
-    return (
-      <div className=" bg-blue-50 h-lvh">
-        <h1 className=" text-4xl font-bold flex justify-center text-blue-950 pl-11 pt-6">Welcome to your P.A.M</h1>
-      
-        <AppointmentList data={data}/>
-      </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default App
