@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { appointmentsApi } from "../features/appontments/Appointmentslice";
+import { appointmentsApi } from "../features/appointments/Appointmentslice";
 
 export const store = configureStore({
     reducer: {

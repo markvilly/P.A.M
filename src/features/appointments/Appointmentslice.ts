@@ -5,7 +5,7 @@ import { Appointment} from "./types"
 
 export const appointmentsApi = createApi({
     reducerPath: 'appointmentsApi',
-    baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:5000/'}),
+    baseQuery: fetchBaseQuery({baseUrl: 'https://localhost:6000/', mode: "no-cors"}),
     tagTypes: ['Appointments'],
     endpoints: (builder)=>({
         getAppointments: builder.query < Appointment[], void>({

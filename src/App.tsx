@@ -1,12 +1,12 @@
-
-// import { useAppointmentListQuery } from "./service/api"
-
+import AppointmentForm from "./features/appointments/components/AppointmentForm"
+import AppointmentList from "./features/appointments/components/AppointmentList"
 
 function App() {
   
   return (
     <div>
-
+      <AppointmentForm/>   
+      <AppointmentList/>           
     </div>
   )
 }

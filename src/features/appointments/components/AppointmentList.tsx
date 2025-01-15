@@ -3,7 +3,7 @@ import { useGetAppointmentsQuery, useDeleteAppointmentMutation} from "../Appoint
 const AppointmentList = () => {
     const {data: appointments, isLoading, error} = useGetAppointmentsQuery()
     const [deleteAppointment] = useDeleteAppointmentMutation()
-
+    console.log(error)
     if(isLoading) return <p>Loading...</p>
     if(error) return <p>Error loading appointments!</p>
 
